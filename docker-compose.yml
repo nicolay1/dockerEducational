@@ -1,0 +1,6 @@
+version: "2"
+services:
+  ssh_net_2:
+    image: ssh_net
+    ports:
+     - "8000:22"
